@@ -1,8 +1,8 @@
 # Flask Text Summarizer Web App
 
-This app uses a simple extractive NLP method to summarize text. Any English language text can be input and the app will return a summary. The app lets you input how long your summary should be and will default to three sentences.
+This application employs a straightforward extractive Natural Language Processing (NLP) technique to generate summaries from English language text. Users can input any text they desire, and the app will provide a summary tailored to their preferred length. Additionally, users have the flexibility to specify the language of the input text and receive the summary in their desired language.
 
-![Demo Image](/app/images/App_Overview.gif)
+
 
 ## How Do I Use This Thing?
 
@@ -10,17 +10,14 @@ There's three steps to summarize your text:
 
 1. Enter some text
 2. Select the length
-3. Select Summarize
+3. Choose language
+4. Select Summarize
 
 And you're good to go!
 
 ## What this is and what it isn't
 The app lets you:\
-✅ Summarize English-language text\
-✅ Find the _key_ sentences that best represent the topic of the data\
-✅ Use simple math through term frequency (with some weighting) to gain and understanding of the text\
+1. Summarize English-language text\
+2. Find the _key_ sentences that best represent the topic of the data\
+3.  Use simple math through term frequency (with some weighting) to gain and understanding of the text\
 
-The app isn't:\
-❌ An abstractive text summary - meaning it doesn't glean new meaning from the text\
-❌ The best solution out there (sadly!)\
-❌ An ordered solution (i.e., the order of the text isn't taken into account), which may result in some odd behavior
